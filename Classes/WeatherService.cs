@@ -7,7 +7,7 @@ namespace CityWeather.Classes
 {
     public class WeatherService
     {
-        private readonly string apiKey = "840696b07ae84e5e96a140638253001";
+        private readonly string apiKey = "REPLACE_WITH_YOUR_KEY";
 
         public async Task<WeatherApiResponse> GetWeatherAsync(string city)
         {

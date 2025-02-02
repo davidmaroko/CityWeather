@@ -1,0 +1,53 @@
+# Visual Studio-specific
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+*.dbmdl
+*.log
+
+# Build results
+bin/
+obj/
+debug/
+release/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# IIS Express
+/.vs/
+
+# Backup files
+*_i.c
+*_p.c
+*.ilk
+*.obj
+*.bak
+*.swp
+*.tmp
+*.temp
+*.log
+*.scc
+*.orig
+*.csproj.user
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Rider files
+.idea/
+*.sln.iml
+
+# Web-specific files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Publish output
+publish/
