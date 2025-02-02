@@ -38,11 +38,9 @@ To use the weather API, you need a valid API key. If you do not have one, follow
 {
     "Temperature_c": 25.6,
     "Temperature_f": 78.1,
-    "Country": "Israel",
-    "City": "Tel Aviv",
     "WindSpeed_kph": 10.5,
-    "WindSpeed_mph": 6.5,
-    "WindDirection": "NE"
+    "Country": "Israel",
+    "City": "Tel Aviv"
 }
 ```
 
