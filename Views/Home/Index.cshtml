@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CityWeather API Documentation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <main class="container mt-5">
+        <section class="text-center">
+            <h1>Welcome to CityWeather API</h1>
+            <p class="lead">This API allows you to retrieve real-time weather information for cities around the world.</p>
+        </section>
+
+        <section class="mt-4">
+            <h2>Available Endpoints</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <strong>GET /api/weather</strong>
+                    <p>Retrieve weather information for a specified city.</p>
+                    <p><strong>Query Parameter:</strong> <code>city</code> - The name of the city (default is Tel Aviv).</p>
+                    <p><strong>Example:</strong> <code>GET /api/weather?city=London</code></p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="mt-4">
+            <h2>Sample Response</h2>
+            <pre class="bg-light p-3">
+{
+    "Temperature_c": 25.6,
+    "Temperature_f": 78.1,
+    "WindSpeed_kph": 10.5,
+    "Country": "Israel",
+    "City": "Tel Aviv",
+}
+            </pre>
+        </section>
+
+        <section class="mt-4">
+            <h2>Getting Started</h2>
+            <p>To get started with the API, simply send a GET request to the endpoint with the desired city as a query parameter.</p>
+            <p>If no city is specified, the API will return weather information for Tel Aviv by default.</p>
+        </section>
+
+        <section class="mt-4">
+            <h2>Contact</h2>
+            <p>If you have any questions or encounter issues, please contact the API support team.</p>
+        </section>
+    </main>
+</body>
+</html>
